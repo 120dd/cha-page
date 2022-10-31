@@ -17,7 +17,7 @@ const Page3 = () => {
     },500)
     
     return (
-        <section className="flex bg-yellow-300 h-[80vh]  items-center justify-center flex-col">
+        <section className="flex bg-yellow-300 h-[120vh]  items-center justify-center flex-col">
             <img src={mainLogo} alt="문따" className="mb-5"/>
             <img src={imgArr[count-1]} alt="문따" className="mb-5 w-52"/>
             <div className=" font-bold text-center text-3xl mb-12">
