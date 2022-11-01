@@ -16,7 +16,7 @@ const Page1 = () => {
         setCount(count%6+1)
     },500)
     return (
-        <section className="flex bg-yellow-100 h-[80vh]  items-center justify-center flex-col">
+        <section className="flex bg-yellow-100  items-center justify-center flex-col">
             <img src={mainLogo} alt="문따" className="mb-5"/>
             <img src={imgArr[count-1]} alt="문따" className="mb-5 w-52"/>
             <div className=" font-bold text-center text-2xl mb-14 font-poor">
