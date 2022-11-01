@@ -17,9 +17,9 @@ const Page3 = () => {
     },500)
     
     return (
-        <section className="flex bg-yellow-300 h-[120vh]  items-center justify-center flex-col">
+        <section className="flex bg-yellow-300 h-[100vh]  items-center justify-center flex-col">
             <img src={mainLogo} alt="문따" className="mb-5"/>
-            <img src={imgArr[count-1]} alt="문따" className="mb-5 w-52"/>
+            {/*<img src={imgArr[count-1]} alt="문따" className="mb-5 w-52"/>*/}
             <div className=" font-bold text-center text-3xl mb-12">
                 고객만족도 별 다섯개 달성!<br/>
                 믿고 전화주세요

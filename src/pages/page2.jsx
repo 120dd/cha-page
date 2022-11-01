@@ -15,7 +15,7 @@ const Page2 = () => {
             <img src={lockLogo} alt="" className="w-80 ml-16"/>
             <div className="font-bold text-center text-4xl mb-2">도어락 수리/설치</div>
             <div className="font-bold text-center text-xl">
-                열쇠 전문가 즉시 출동!
+                다양한 기종, 합리적 가격
             </div>
             <img src={carLogo} alt="" className="w-80"/>
             <div className="font-bold text-center text-4xl mb-2">차키 수리 및 복사</div>
