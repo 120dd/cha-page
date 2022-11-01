@@ -17,13 +17,13 @@ const Page1 = () => {
     },500)
     return (
         <section className="flex bg-yellow-100  items-center justify-center flex-col">
-            <img src={mainLogo} alt="문따" className="mb-5"/>
+            <img src={mainLogo} alt="문따" className="mb-5 mt-20"/>
             <img src={imgArr[count-1]} alt="문따" className="mb-5 w-52"/>
             <div className=" font-bold text-center text-2xl mb-14 font-poor">
                 24시 <strong className=" text-red-500 text-4xl">문따</strong> 드립니다 <br/>
                 도어락 수리/설치, 차키 복사도 OK~!
             </div>
-            <a href="tel:070-8144-5293" className="bg-blue-900 px-10 py-3 font-poor text-white text-xl rounded-lg text-center">서울 / 경기 / 인천<br/>24시 즉시출동</a>
+            <a href="tel:070-8144-5293" className="bg-blue-900 px-10 py-3 font-poor text-white text-xl rounded-lg text-center mb-12">서울 / 경기 / 인천<br/>24시 즉시출동</a>
         </section>
     );
 };
