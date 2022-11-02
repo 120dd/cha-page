@@ -23,7 +23,9 @@ const Page1 = () => {
                 24시 <strong className=" text-red-500 text-4xl">문따</strong> 드립니다 <br/>
                 도어락 수리/설치, 차키 복사도 OK~!
             </div>
-            <a href="tel:070-8144-5293" className="bg-blue-900 px-10 py-3 font-poor text-white text-xl rounded-lg text-center mb-12">서울 / 경기 / 인천<br/>24시 즉시출동</a>
+            <a href="tel:070-8144-5293" className="bg-blue-900 px-10 py-3 font-poor text-white text-xl rounded-lg text-center mb-12">
+                서울 / 경기 / 인천<br/>24시 즉시출동<br/>&#60;클릭시 바로 연결&#62;
+            </a>
         </section>
     );
 };
