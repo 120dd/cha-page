@@ -8,7 +8,7 @@ import starLogo5 from "../asset/엄지척 이미지/엄지척_컬러이미지5.p
 import starLogo6 from "../asset/엄지척 이미지/엄지척_컬러이미지6.png";
 
 const Page1 = () => {
-    const [count,setCount] = useState(0);
+    const [count,setCount] = useState(1);
     
     const imgArr = [starLogo1,starLogo2,starLogo3,starLogo4,starLogo5,starLogo6];
     

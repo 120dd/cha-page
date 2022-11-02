@@ -9,15 +9,15 @@ const Page2 = () => {
         <section className="flex bg-yellow-200  items-center justify-center flex-col">
             <img src={doorLogo} alt="" className="w-80"/>
             <div className="font-bold text-center text-4xl mb-2">잠긴문</div>
-            <div className="font-bold text-center text-xl">
+            <div className="font-bold text-center text-xl mb-10">
                 열쇠 전문가 즉시 출동!
             </div>
-            <img src={lockLogo} alt="" className="w-80 ml-16"/>
+            <img src={lockLogo} alt="" className="w-80 ml-16 mb-10"/>
             <div className="font-bold text-center text-4xl mb-2">도어락 수리/설치</div>
             <div className="font-bold text-center text-xl">
                 다양한 기종, 합리적 가격
             </div>
-            <img src={carLogo} alt="" className="w-80"/>
+            <img src={carLogo} alt="" className="w-80 mb-2"/>
             <div className="font-bold text-center text-4xl mb-2">차키 수리 및 복사</div>
             <div className="font-bold text-center text-xl mb-20">
                 폴딩키, 스마트키 모두 OK
