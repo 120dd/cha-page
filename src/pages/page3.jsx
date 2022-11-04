@@ -10,7 +10,7 @@ const Page3 = () => {
                 고객만족도 별 다섯개 달성!<br/>
                 믿고 전화주세요
             </div>
-            <a href="tel:070-8144-5293" className="font-bold text-center bg-blue-900 px-10 py-3 text-white text-xl rounded-lg">즉시연결<br/><span className="text-yellow-500">070-8144-5293</span></a>
+            <a href="tel:010-9921-1988" className="font-bold text-center bg-blue-900 px-10 py-3 text-white text-xl rounded-lg">즉시연결<br/><span className="text-yellow-500">010-9921-1988</span></a>
         </section>
     );
 };
